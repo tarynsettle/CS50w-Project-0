@@ -1,0 +1,106 @@
+.menu {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.advanced {
+    color: black;
+    width: 120px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 1px 10px 1px;
+    cursor: pointer;
+}
+
+.advanced:hover {
+    text-decoration: underline;
+}
+
+.login {
+    width: 50px;
+    color: white;
+    border: solid #1B72E8;
+    border-radius: 4px;
+    background-color: #1B72E8;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 1px 10px 1px;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #1b4be8;
+    border-color: #1b4be8;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+}
+
+#SearchBar {
+    text-align: center;
+    border-color: #EDEDED;
+}
+
+.User { 
+    text-align: center;
+    outline: solid;
+    border-radius: 120px;
+    outline-color: #EDEDED;
+    height: 40px;
+    width: 40%;
+    margin: 20px auto 20px auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transition: background-color 90ms ease-in-out;
+}
+
+.User:hover {
+    background-color: whitesmoke;
+}
+
+.glass {
+    width: 16px;
+    padding: 12px 10px 5px 15px;
+    /* text-align: left; */
+    /* margin-top: 10px;
+    margin-right: 9px; */
+}
+
+.Form {
+    width: 80%;
+    height: 38px;
+    /* padding: 25%; */
+    /* margin: 25%; */
+    border: none;
+    background-color: inherit;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+.Form:focus {
+    border: none;
+    outline: none;
+}
+
+.submit {
+    padding: 10px 15px 10px 15px;
+    margin: 10px 5px 10px 5px;
+    cursor: pointer;
+    background-color: #F8F9FA;
+    border: solid #F8F9FA;
+    border-radius: 5px;
+    transition: 90ms ease-in-out;
+}
+
+.submit:hover {
+    border-color: #aaaaaa;
+}
