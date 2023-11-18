@@ -43,6 +43,10 @@
     font-family: Roboto, arial, sans-serif;
 }
 
+.space {
+    width: 85%;
+}
+
 #SearchBar {
     text-align: center;
     border-color: #EDEDED;
@@ -55,6 +59,7 @@
     outline-color: #EDEDED;
     height: 40px;
     width: 40%;
+    min-width: 300px;
     margin: 20px auto 20px auto;
     white-space: nowrap;
     display: flex;
@@ -75,7 +80,7 @@
     margin-right: 9px; */
 }
 
-.Form {
+.form {
     width: 80%;
     height: 38px;
     /* padding: 25%; */
@@ -86,9 +91,14 @@
     font-size: 16px;
 }
 
-.Form:focus {
+.form:focus {
     border: none;
     outline: none;
+}
+
+.camera {
+    opacity: 0.46;
+    margin: 9px 4% 5px 25px;
 }
 
 .submit {
@@ -103,4 +113,21 @@
 
 .submit:hover {
     border-color: #aaaaaa;
+}
+
+.queries {
+    display: flex;
+    flex-direction: row;
+}
+
+.advancedUser {
+
+}
+
+.advancedForm {
+
+}
+
+li {
+    list-style-type: none;
 }
