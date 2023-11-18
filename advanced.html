@@ -3,33 +3,41 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="styles.css">
+        <!-- Arnold3 png: https://www.pngall.com/arnold-schwarzenegger-png/download/38792 -->
     </head>
     <body>
         <div class="menu">
-            <div class="login"><a class="link" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">Sign in</a></div>
+            <div class="login"><a class="link" id="NoUl" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">Sign in</a></div>
             <div class="space"></div>
             <div class="advanced"><a class="link" href="search.html">Schnitzel Search</a></div>
         </div>
-        <form id="AdvancedSearch" action="https://google.com/search">
-            <p>Find pages with...</p>
-            <div class="queries">
-                <div class="explainer">
-                    <ul>
-                        <li>all these words: </li>
-                        <li>this exact word or phrase: </li>
-                        <li>any of these words: </li>
-                        <li>none of these words: </li>
-                    </ul>
+        <div class="content">
+            <p class="title">Pumped-up Search</p>
+            <div class="line"></div>
+            <form id="AdvancedSearch" action="https://google.com/search">
+                <p>Find pages with...</p>
+                <div class="queries">
+                    <div class="explainer">
+                        <ul>
+                            <li>all these words: </li>
+                            <li>this exact word or phrase: </li>
+                            <li>any of these words: </li>
+                            <li>none of these words: </li>
+                        </ul>
+                    </div>
+                    <div class="advUser">
+                        <ul>
+                            <li><input class="advForm" type="text" name="as_q" autofocus></li>
+                            <li><input class="advForm" type="text" name="as_epq"></li>
+                            <li><input class="advForm" type="text" name="as_oq"></li>
+                            <li><input class="advForm" type="text" name="as_eq"></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="advancedUser">
-                    <ul>
-                        <li><input class="advancedForm" autocomplete="off" type="text" name="as_q" autofocus></li>
-                        <li><input class="advancedForm" autocomplete="off" type="text" name="as_q" autofocus></li>
-                        <li><input class="advancedForm" autocomplete="off" type="text" name="as_q" autofocus></li>
-                        <li><input class="advancedForm" autocomplete="off" type="text" name="as_q" autofocus></li>
-                    </ul>
-                </div>
-            </div>
-        </form>
+                <input class="submit hardSubmit" type="submit" value="Advanced Search">
+                
+            </form>
+        </div>
+        <div class="arnold"><a href="search.html"><img src="arnold3.png" alt="Arnold" width="40%"></a></div>
     </body>
 </html>
