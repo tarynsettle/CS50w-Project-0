@@ -12,11 +12,6 @@
     text-align: center;
     padding: 10px 20px 10px 20px;
     margin: 10px 1px 10px 1px;
-    cursor: pointer;
-}
-
-.advanced:hover {
-    text-decoration: underline;
 }
 
 .login {
@@ -41,6 +36,11 @@
     text-decoration: none;
     font-size: 14px;
     font-family: Roboto, arial, sans-serif;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 .space {
